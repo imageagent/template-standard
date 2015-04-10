@@ -1,0 +1,29 @@
+/*
+  Margins for all headers are set to zero. The margins
+  for each are set based on context.
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.25;
+  margin: 0;
+}
+
+p,
+li,
+p.lead {
+  line-height: 1.5;
+}
+
+a,
+a:visited {
+  color: $ia-red;
+
+  &:hover,
+  &:active {
+    color: darken($ia-red, 10%);
+  }
+}

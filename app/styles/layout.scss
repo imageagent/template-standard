@@ -1,0 +1,24 @@
+// Masthead
+
+.navbar {
+  border: none;
+  margin: 0;
+}
+
+.masthead {
+  background: url('../images/stardust.png') center center;
+  color: #f7f7f7;
+  padding: 8em 0;
+  h1 {
+    margin-bottom: 1em;
+  }
+}
+
+
+// Footer
+
+.page-footer {
+  font-size: 75%;
+  padding: 1.5em 0;
+  text-align: center;
+}

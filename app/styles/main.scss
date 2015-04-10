@@ -17,102 +17,12 @@ $icon-font-path: '../fonts/';
   Imports
   =====================================================*/
 
+// Google Fonts
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700);
 
-
-
-/*=======================================================
-  Variables
-  =====================================================*/
-
-$ia-red: #e2343c;
-$ia-blue: blue;
-$ia-black: #222222;
-
-
-
-/*=======================================================
-  Global
-  =====================================================*/
-
-body {
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-  font-size: 16px;
-}
-
-
-
-/*=======================================================
-  Typography
-  =====================================================*/
-
-/*
-  Margins for all headers are set to zero. The margins
-  for each are set based on context.
-*/
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-  line-height: 1.25;
-  margin: 0;
-}
-
-p,
-li,
-p.lead {
-  line-height: 1.5;
-}
-
-a,
-a:visited {
-  color: $ia-red;
-
-  &:hover,
-  &:active {
-    color: darken($ia-red, 10%);
-  }
-}
-
-
-
-/*=======================================================
-  Layout
-  =====================================================*/
-
-// Masthead
-
-.navbar {
-  border: none;
-  margin: 0;
-}
-
-.masthead {
-  background: url('../images/stardust.png') center center;
-  color: #f7f7f7;
-  padding: 8em 0;
-  h1 {
-    margin-bottom: 1em;
-  }
-}
-
-
-// Footer
-
-.page-footer {
-  font-size: 75%;
-  padding: 1.5em 0;
-  text-align: center;
-}
-
-
-
-/*=======================================================
-  Media Queries
-  =====================================================*/
-
-@media only screen and (min-width: 768px) {
-
-}
+// Partials
+@import 'variables';
+@import 'global';
+@import 'typography';
+@import 'buttons';
+@import 'layout';
